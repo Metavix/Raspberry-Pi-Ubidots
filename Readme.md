@@ -91,11 +91,6 @@ $ sudo ifconfig wlan0
 
 
 2. Connecting your Raspberry Pi through WiFi. Your Raspberry Pi already has an Ethernet port, however, it can be turned into a wireless device by adding a USB WIFI dongle.
-
-    ![Ups](../images/devices/raspi.png)
-    **Figure 1:** Raspberry pi with USB WIFI dongle from EDIMAX
-      First, we'll need to make sure your device is connected to the web through your local WIFI network
-
 3. Plug the USB WiFi Dongle, then restart your RasPi.
 4. Login to the device using your credentials, typically as Step One
 5. Open file of step two from the console
@@ -118,9 +113,6 @@ $ sudo ifconfig wlan0
 2. Create a python script using your favorite text-editor. We'll use "nano" in this case
 3. Put the following code into the created file. Please note the fields where you should put your API key and your variable ID.
 4. Run the code several times to send some random values to the cloud
-    You should now see some data-points in your browser!
-    ![Ups](../images/devices/raspi-post.png)
-     **Figure 2:** Your data in Ubidots
 
 Once your data is in the cloud, it's all down the hill. You can trigger events according to your data, create insights to share, etc.
 
